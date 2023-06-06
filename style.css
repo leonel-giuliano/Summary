@@ -163,7 +163,6 @@ article {
     border: none;
     border-radius: 2rem;
     transition: opacity .25s ease;
-    z-index: 1;
 }
 
 .button span {display: none;}
@@ -207,7 +206,8 @@ article {
         color: hsla(var(--clr-ne-white));
         background-image: linear-gradient(to top, hsla(var(--clr-gr-background-light-royal-blue)), hsla(var(--clr-gr-background-light-slate-blue)));
         border-radius: 2rem;
+        z-index: -1;
     }
 
-    .button button:hover {opacity: 0;}
+    .summary button:hover {opacity: 0;}
 }
