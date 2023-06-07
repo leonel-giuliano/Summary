@@ -39,7 +39,7 @@ body {
     color: hsl(var(--clr-ne-white));
 }
 
-article {
+main {
     display: grid;
     justify-items: center;
     height: 100%;
@@ -176,7 +176,7 @@ article {
 }
 
 @media only screen and (min-width: 600px) {
-    article {
+    main {
         position: absolute;
         inset: 0;
         width: 90%;
