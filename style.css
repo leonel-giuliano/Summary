@@ -180,8 +180,9 @@ main {
         position: absolute;
         inset: 0;
         width: 90%;
-        max-width: 800px;
-        height: 60%;
+        max-width: 740px;
+        height: 70%;
+        max-height: 512px;
         margin: auto;
         grid-template-columns: 1fr 1fr;
         border-radius: 2rem;
