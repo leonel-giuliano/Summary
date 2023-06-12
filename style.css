@@ -157,6 +157,7 @@ main {
     position: relative;
     width: 100%;
     padding: 1rem 0;
+    cursor: pointer;
     font-weight: var(--fw-bold);
     color: hsla(var(--clr-ne-white));
     background-color: hsla(var(--clr-ne-dark-gray-blue));
@@ -203,9 +204,10 @@ main {
         width: 100%;
         height: inherit;
         margin: auto;
+        cursor: pointer;
         font-weight: var(--fw-bold);
         color: hsla(var(--clr-ne-white));
-        background-image: linear-gradient(to top, hsla(var(--clr-gr-background-light-royal-blue)), hsla(var(--clr-gr-background-light-slate-blue)));
+        background-image: linear-gradient(hsla(var(--clr-gr-background-light-royal-blue)), hsla(var(--clr-gr-background-light-slate-blue)));
         border-radius: 2rem;
         z-index: -1;
     }
